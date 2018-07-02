@@ -52,8 +52,6 @@ namespace JBFinancialScraper
             var portfolioStockInfo = new List<StockInfo>();
             //            var table = chromeDriver.FindElement(By.TagName("table"));
             var table = chromeDriver.FindElement(By.ClassName("tJDbU"));
-            //            Console.WriteLine("Table" + table);
-            //            var tableRows = table.FindElements(By.TagName("tr"));
             var tableRows = table.FindElements(By.ClassName("_14MJo"));
             Console.WriteLine("tablerows" + tableRows.Count);
             var listRowData = new List<string>();
