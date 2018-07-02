@@ -50,7 +50,6 @@ namespace JBFinancialScraper
         {
 //            // scrape symbols
             var portfolioStockInfo = new List<StockInfo>();
-            //            var table = chromeDriver.FindElement(By.TagName("table"));
             var table = chromeDriver.FindElement(By.ClassName("tJDbU"));
             var tableRows = table.FindElements(By.ClassName("_14MJo"));
             Console.WriteLine("tablerows" + tableRows.Count);
