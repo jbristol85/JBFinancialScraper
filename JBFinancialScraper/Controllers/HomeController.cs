@@ -15,16 +15,16 @@ namespace JBFinancialScraper.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult News()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Stock Market news will display here.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact Me: ";
 
             return View();
         }
